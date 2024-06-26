@@ -1,2 +1,21 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Components ionic + tailwind */
+ion-content {
+    --background: none;
+    @apply bg-gray-200;
+}
+ion-input {
+    --padding-start: 10px !important;
+    --padding-end: 10px !important;
+}
+ion-tab-bar{
+    --color: #334a74 !important;
+}
+.tab-selected{
+    color: #dc2626 !important;
+}
