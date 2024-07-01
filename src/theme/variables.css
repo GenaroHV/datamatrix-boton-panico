@@ -19,3 +19,9 @@ ion-tab-bar{
 .tab-selected{
     color: #dc2626 !important;
 }
+ion-input {
+    @apply bg-gray-100 rounded-lg ;
+}
+.input-bottom.sc-ion-input-ios{
+    @apply bg-white;
+}
